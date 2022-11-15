@@ -452,7 +452,7 @@ section {
         font-family: var(--font-secondary);
         font-size: 16px;
         font-weight: 600;
-        color: rgba(255, 255, 255, 0.6);
+        color: rgba(66, 66, 66, 0.6);
         white-space: nowrap;
         transition: 0.3s;
         position: relative;
@@ -489,7 +489,10 @@ section {
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover>a {
-        color: #fff;
+        /*asli*/
+        /*color: #fff;*/
+        
+        color: #424242;
     }
 
     .navbar .dropdown ul {
